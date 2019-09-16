@@ -7,17 +7,7 @@ import Checkbox from "../../Checkbox";
 
 import "./style.scss";
 
-const availableSizes = [
-  "Kids Size",
-  "XS",
-  "S",
-  "M",
-  "ML",
-  "L",
-  "XL",
-  "XXL",
-  "XXXL"
-];
+const availableSizes = ["XS", "S", "M", "ML", "L", "XL", "XXL"];
 
 class Filter extends Component {
   static propTypes = {
